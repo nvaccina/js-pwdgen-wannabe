@@ -13,9 +13,6 @@ const colore = prompt("Qual è il tuo colore preferito?");
 
 const age = prompt("Quanti anni hai?");
 
-const output = `
-Ciao ${name} ${surname} <br>
-Il tuo colore preferito è il ${colore} <br>
-Hai ${age} anni
-`
+const output = name + surname + colore + age;
+
 document.getElementById("utente").innerHTML = output;
